@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(2, 2, 59);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(9, 9, 58);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(105, 105, 241);
+  font-size: 1.02rem;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstSec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.firstSec > div {
+  width: 35%;
+}
+
+.leftSec {
+  font-size: 3rem;
+}
+
+.leftSec .buttons {
+  padding: 10px 0;
+}
+
+.leftSec .btn {
+  padding: 12px;
+  color: white;
+  background-color: rgb(14, 14, 161);
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.leftSec .btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.leftSec .btn a:hover {
+  color: blueviolet;
+}
+
+.leftSec .btn:hover {
+  color: blueviolet;
+}
+
+.rightSec img {
+  width: 80%;
+  margin: 50px 0;
+  border-radius: 50%;
+}
+
+.purple {
+  color: rgb(137, 22, 245);
+}
+
+.text-grey {
+  color: grey;
+}
+
+#element {
+  color: rgb(137, 22, 245);
+}
+
+.secondSec {
+  max-width: 80vw;
+  margin: auto;
+  height: 100vh;
+}
+
+.secondSec h1 {
+  font-size: 2rem;
+}
+
+.secondSec .box {
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.secondSec .vertical {
+  height: 100px;
+  width: 2px;
+  background: white;
+  margin: 0 100px;
+}
+
+.image-top {
+  width: 30px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 70px;
+  width: 150px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 160px;
+  right: 102px;
+  color: grey;
+  font-size: 12px;
+  height: 50vh;
+}
+
+main hr {
+  background-color: rgb(81, 81, 238);
+  height: 1px;
+  border: 0;
+  margin: 40px 85px;
+}
+
+footer {
+  background-color: rgb(11, 11, 126);
+}
+
+.footer {
+  display: flex;
+  padding: 23px 34px;
+  justify-content: space-evenly;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.footer-text-center {
+  color: grey;
+  text-align: center;
+  padding: 12px 0;
+}
